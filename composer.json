@@ -1,0 +1,41 @@
+{
+    "name": "drnkwati/repack-container",
+    "description": "PHP 5.3 dependency injection package.",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Taylor Otwell",
+        "email": "taylor@laravel.com"
+    },
+    {
+        "name": "Divine Nkwati",
+        "email": "drnkwati@gmail.com"
+    }],
+    "require":
+    {
+        "php": ">=5.3"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Repack\\Container\\": "src"
+        }
+    },
+    "suggest":
+    {
+        "psr/container": "If you need psr/container implementation, just install fig psr/container package."
+    },
+    "extra":
+    {
+        "branch-alias":
+        {
+            "dev-master": "5.5-dev"
+        }
+    },
+    "config":
+    {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
